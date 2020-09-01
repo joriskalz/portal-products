@@ -17,4 +17,5 @@ const StyledCategoryList = styled.div.attrs({
     } */
   }
 `;
+
 export default StyledCategoryList;
