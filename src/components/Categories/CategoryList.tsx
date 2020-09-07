@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 
-import ContactsList from "./Category";
+import Categories from "./Categories";
 import StyledCategoryList from "./styles/StyledCategoryList";
 
 const CategoryList = () => {
@@ -8,7 +8,9 @@ const CategoryList = () => {
     <>
       <StyledCategoryList>
         <Suspense fallback={<h3>Loading Categories...</h3>}>
-          <ContactsList />
+          <>
+            <Categories></Categories>
+          </>
         </Suspense>
       </StyledCategoryList>
     </>

@@ -5,15 +5,16 @@ import { currentCategoryState } from "../../recoil/atoms";
 import { categoryList } from "../../recoil/selectors";
 
 import StyledCategory, { StyledCategoryOverlay } from "./styles/StyledCategory";
-import tw from "twin.macro";
 
-const Categories = () => {
+import { Category } from "../../common/business-models/Category";
+
+const Categories = (): JSX.Element => {
   const [currentCategory, setCurrentCategory] = useRecoilState(
     currentCategoryState
   );
-  const categories = useRecoilValue(categoryList);
+  const categories = useRecoilValue(categoryList) as Category[];
 
-  return categories.map((category: any) => {
+  const categoriesElements = categories.map((category: Category) => {
     const imageUrl = `./images/${category.imageUrl}`;
     // background-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|saturation|color|luminosity;
 
@@ -35,6 +36,8 @@ const Categories = () => {
       </StyledCategory>
     );
   });
+
+  return <>{categoriesElements}</>;
 };
 
 export default Categories;

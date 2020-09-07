@@ -7,7 +7,7 @@ const StyledCategory = styled.div(() => [
 ]);
 
 export const StyledCategoryOverlay = styled.div(({ isSelected }) => [
-  tw`bg-gray-700 hover:bg-gray-600 p-2 w-full text-center opacity-80`,
+  tw`bg-gray-700 hover:bg-gray-600 p-2 w-full text-center opacity-90`,
   isSelected ? tw`bg-gray-500` : tw``,
 ]);
 
