@@ -29,7 +29,7 @@ const Categories = (): JSX.Element => {
         onClick={() => setCurrentCategory(category.id)}
       >
         <StyledCategoryOverlay isSelected={currentCategory === category.id}>
-          <h2 className="text-base font-semibold">
+          <h2 className="text-sm">
             <span>{category.name}</span>
           </h2>
         </StyledCategoryOverlay>

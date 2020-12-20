@@ -1,4 +1,6 @@
+import { faFontAwesomeLogoFull } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
+import { ReactComponent as Logo } from "./logo.svg";
 
 interface Props {}
 
@@ -8,12 +10,7 @@ const Header = (props: Props) => {
       <div className="container px-4 mx-auto">
         <nav className="flex items-center py-6">
           <a className="text-3xl font-semibold leading-none" href="#">
-            <img
-              className="h-10"
-              src="metis-assets/logos/metis/metis.svg"
-              alt=""
-              width="auto"
-            />
+            <Logo className="w-32" />
           </a>
           <div className="lg:hidden ml-auto">
             <button className="navbar-burger flex items-center py-2 px-3 text-blue-600 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300">

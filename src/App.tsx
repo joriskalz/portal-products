@@ -8,13 +8,14 @@ import {
 } from "recoil";
 import Header from "./components//Header/Header.Component";
 import Sidebar from "./components/Categories/CategoryList";
+import Footer from "./components/Footer/Footer.Component";
 
 import { Main } from "./components/Main/Main";
 
 function App() {
   return (
     <RecoilRoot>
-      <div>
+      <>
         <Header />
 
         <div className="flex flex-wrap md:mb-0">
@@ -33,7 +34,9 @@ function App() {
             </Suspense>
           </div>
         </div>
-      </div>
+        <Footer />
+      </>
+
       {/* <StyledForm>
         <form>
           <input type="text" placeholder="Full name" />

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 347 188" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:8;">
+    <g transform="matrix(1,0,0,1,-330.32,-281.69)">
+        <g transform="matrix(1,0,0,1,330.32,281.69)">
+            <g transform="matrix(0.0149989,0,0,0.0149995,0,0)">
+                <rect x="7700" y="1700" width="12600" height="7592" style="fill:white;"/>
+            </g>
+            <rect x="0" y="0" width="346.294" height="187.553" style="fill:none;"/>
+            <g transform="matrix(0.119991,0,0,0.119996,122.798,115.55)">
+                <text x="0px" y="0px" style="font-family:'BerlinSansFBDemi-Bold', 'Berlin Sans FB Demi', sans-serif;font-weight:700;font-size:733px;fill:rgb(37,99,235);">B</text>
+                <text x="469.117px" y="0px" style="font-family:'BerlinSansFBDemi-Bold', 'Berlin Sans FB Demi', sans-serif;font-weight:700;font-size:733px;fill:rgb(37,99,235);">U</text>
+                <text x="967.263px" y="0px" style="font-family:'BerlinSansFBDemi-Bold', 'Berlin Sans FB Demi', sans-serif;font-weight:700;font-size:733px;fill:rgb(37,99,235);">Y</text>
+            </g>
+            <g transform="matrix(0.00749944,0,0,0.00749973,0,0)">
+                <path d="M4968,10992C4968,7215 8031,4152 11808,4152C15586,4152 18648,7215 18648,10992C18648,14770 15586,17832 11808,17832C8031,17832 4968,14770 4968,10992" style="fill:white;"/>
+            </g>
+            <g transform="matrix(0.00749944,0,0,0.00749973,0,0)">
+                <path d="M4968,10992C4968,7215 8031,4152 11808,4152C15586,4152 18648,7215 18648,10992C18648,14770 15586,17832 11808,17832C8031,17832 4968,14770 4968,10992" style="fill:none;stroke:white;stroke-width:133px;"/>
+            </g>
+            <g transform="matrix(0.00749944,0,0,0.00749973,0,0)">
+                <path d="M4040,10992C4040,7215 7103,4152 10880,4152C14658,4152 17720,7215 17720,10992C17720,14770 14658,17832 10880,17832C7103,17832 4040,14770 4040,10992" style="fill:rgb(37,99,235);"/>
+            </g>
+            <rect x="0" y="0" width="304.537" height="175.794" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="304.537" height="175.794"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(0.00749944,0,0,0.00749973,0,0)">
+                    <path d="M1984,11000C1984,7223 5047,4160 8824,4160C12602,4160 15664,7223 15664,11000C15664,14778 12602,17840 8824,17840C5047,17840 1984,14778 1984,11000" style="fill:none;stroke:rgb(37,99,235);stroke-width:1366.97px;"/>
+                </g>
+            </g>
+            <rect x="0" y="0" width="346.294" height="187.553" style="fill:none;"/>
+            <g transform="matrix(0.119991,0,0,0.119996,52.8376,112.808)">
+                <text x="0px" y="0px" style="font-family:'BerlinSansFBDemi-Bold', 'Berlin Sans FB Demi', sans-serif;font-weight:700;font-size:733px;fill:white;">P</text>
+            </g>
+        </g>
+    </g>
+</svg>
