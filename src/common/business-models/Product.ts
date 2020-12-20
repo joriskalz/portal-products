@@ -7,6 +7,7 @@ export interface Product {
   webfile_partialurl: string;
   webfile_name: string;
   amount: string;
+  categoryid: string;
 }
 
 // availableSizes: string[];

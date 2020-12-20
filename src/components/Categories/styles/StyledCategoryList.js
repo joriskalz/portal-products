@@ -3,12 +3,15 @@ import styled from "styled-components";
 import tw from "twin.macro";
 
 const StyledCategoryList = styled.div.attrs({
-  className: "flex flex-row justify-center items-center bg-gray-100 p-10",
+  className:
+    "mx-auto bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 py-20",
 })`
   & {
-    /* form {
-      ${tw`bg-white text-center rounded py-8 px-5 shadow max-w-xs`}
+    div {
+      ${tw`grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-3/4 mx-auto bg-gray-600`}
     }
+
+    /* 
     input {
       ${tw`border-gray-300 mb-4 w-full border-solid border rounded py-2 px-4`}
     }

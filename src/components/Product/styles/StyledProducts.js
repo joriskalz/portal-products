@@ -2,6 +2,6 @@
 import styled from "styled-components";
 import tw from "twin.macro";
 
-const StyledProducts = styled.div(() => [tw`text-white`]);
+const StyledProducts = styled.div(() => [tw`text-white `]);
 
 export default StyledProducts;
