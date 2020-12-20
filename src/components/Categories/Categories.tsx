@@ -20,16 +20,16 @@ const Categories = (): JSX.Element => {
 
     return (
       <StyledCategory
-        style={{
-          backgroundImage: `url(${imageUrl})`,
-          backgroundRepeat: "no",
-          backgroundSize: "cover",
-        }}
+        // style={{
+        //   backgroundImage: `url(${imageUrl})`,
+        //   backgroundRepeat: "no",
+        //   backgroundSize: "cover",
+        // }}
         key={category.id}
         onClick={() => setCurrentCategory(category.id)}
       >
         <StyledCategoryOverlay isSelected={currentCategory === category.id}>
-          <h2 className="text-2xl font-semibold">
+          <h2 className="text-base font-semibold">
             <span>{category.name}</span>
           </h2>
         </StyledCategoryOverlay>

@@ -2,6 +2,7 @@ import React from "react";
 import { useRecoilState, useRecoilValue } from "recoil";
 
 import { currentCategoryState } from "../../recoil/atoms";
+
 import ProductList from "../Product/ProductList";
 //import { contactsList } from "../../recoil/selectors";
 
@@ -12,8 +13,10 @@ export const Main = (props: Props) => {
   //const contacts = useRecoilValue(contactsList);
 
   return (
-    <div className="container mx-auto px-6">
-      <ProductList />
-    </div>
+    <>
+      <div className="container mx-auto px-6">
+        <ProductList />
+      </div>
+    </>
   );
 };
