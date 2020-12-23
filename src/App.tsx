@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useContext, useState } from "react";
 import {
   RecoilRoot,
   atom,
@@ -6,6 +6,7 @@ import {
   useRecoilState,
   useRecoilValue,
 } from "recoil";
+
 import Header from "./components//Header/Header.Component";
 import Sidebar from "./components/Categories/CategoryList";
 import Footer from "./components/Footer/Footer.Component";
@@ -13,38 +14,35 @@ import Footer from "./components/Footer/Footer.Component";
 import { Main } from "./components/Main/Main";
 
 function App() {
+  const [isOpenPanel, setOpenPanel] = useState(false);
+
+  const handleClose = (e: any) => {
+    setOpenPanel(false);
+  };
+
   return (
     <RecoilRoot>
       <>
-        <Header />
+        <Sidebar isOpen={isOpenPanel} handleClose={handleClose} />
 
-        <div className="flex flex-wrap md:mb-0">
-          <div className="w-full md:w-1/4 px-4 mb-4 md:mb-0">
-            <Sidebar />
+        <div className="container mx-auto px-6">
+          <Header />
+          <div className="flex flex-wrap md:mb-0">
+            <div className="w-full md:w-4/4 px-4 mb-4 md:mb-0">
+              <Suspense
+                fallback={
+                  <div className="container mx-auto px-6">
+                    <h3>Loading Main...</h3>
+                  </div>
+                }
+              >
+                <Main handleOpen={() => setOpenPanel(true)} />
+              </Suspense>
+            </div>
           </div>
-          <div className="w-full md:w-3/4 px-4 mb-4 md:mb-0">
-            <Suspense
-              fallback={
-                <div className="container mx-auto px-6">
-                  <h3>Loading Main...</h3>
-                </div>
-              }
-            >
-              <Main />
-            </Suspense>
-          </div>
+          <Footer />
         </div>
-        <Footer />
       </>
-
-      {/* <StyledForm>
-        <form>
-          <input type="text" placeholder="Full name" />
-          <input type="text" placeholder="Email" />
-          <input type="text" placeholder="Password" />
-          <button>Sign In</button>
-        </form>
-      </StyledForm> */}
     </RecoilRoot>
   );
 }

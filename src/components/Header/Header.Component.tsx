@@ -1,4 +1,3 @@
-import { faFontAwesomeLogoFull } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import { ReactComponent as Logo } from "./logo.svg";
 
@@ -9,7 +8,7 @@ const Header = (props: Props) => {
     <section>
       <div className="container px-4 mx-auto">
         <nav className="flex items-center py-6">
-          <a className="text-3xl font-semibold leading-none" href="#">
+          <a className="text-3xl font-semibold leading-none" href="/#">
             <Logo className="w-32" />
           </a>
           <div className="lg:hidden ml-auto">
@@ -28,7 +27,7 @@ const Header = (props: Props) => {
             <li>
               <a
                 className="text-sm text-blueGray-400 hover:text-blueGray-500"
-                href="#"
+                href="/#"
               >
                 Product
               </a>
@@ -36,7 +35,7 @@ const Header = (props: Props) => {
             <li>
               <a
                 className="text-sm text-blueGray-400 hover:text-blueGray-500"
-                href="#"
+                href="/#"
               >
                 Company
               </a>
@@ -44,7 +43,7 @@ const Header = (props: Props) => {
             <li>
               <a
                 className="text-sm text-blueGray-400 hover:text-blueGray-500"
-                href="#"
+                href="/#"
               >
                 About Us
               </a>
@@ -52,7 +51,7 @@ const Header = (props: Props) => {
             <li>
               <a
                 className="text-sm text-blueGray-400 hover:text-blueGray-500"
-                href="#"
+                href="/#"
               >
                 Features
               </a>
@@ -61,13 +60,13 @@ const Header = (props: Props) => {
           <div className="hidden lg:block">
             <a
               className="mr-2 inline-block px-4 py-3 text-xs text-blue-600 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded"
-              href="#"
+              href="/#"
             >
               Log In
             </a>
             <a
               className="inline-block px-4 py-3 text-xs font-semibold leading-none bg-blue-600 hover:bg-blue-700 text-white rounded"
-              href="#"
+              href="/#"
             >
               Sign Up
             </a>
@@ -78,7 +77,10 @@ const Header = (props: Props) => {
         <div className="navbar-backdrop fixed inset-0 bg-blueGray-800 opacity-25"></div>
         <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
           <div className="flex items-center mb-8">
-            <a className="mr-auto text-3xl font-semibold leading-none" href="#">
+            <a
+              className="mr-auto text-3xl font-semibold leading-none"
+              href="/#"
+            >
               <img
                 className="h-10"
                 src="metis-assets/logos/metis/metis.svg"
@@ -108,7 +110,7 @@ const Header = (props: Props) => {
               <li className="mb-1">
                 <a
                   className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600"
-                  href="#"
+                  href="/#"
                 >
                   Product
                 </a>
@@ -116,7 +118,7 @@ const Header = (props: Props) => {
               <li className="mb-1">
                 <a
                   className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600"
-                  href="#"
+                  href="/#"
                 >
                   Company
                 </a>
@@ -124,7 +126,7 @@ const Header = (props: Props) => {
               <li className="mb-1">
                 <a
                   className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600"
-                  href="#"
+                  href="/#"
                 >
                   About Us
                 </a>
@@ -132,7 +134,7 @@ const Header = (props: Props) => {
               <li className="mb-1">
                 <a
                   className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600"
-                  href="#"
+                  href="/#"
                 >
                   Features
                 </a>
@@ -141,13 +143,13 @@ const Header = (props: Props) => {
             <div className="mt-4 pt-6 border-t border-blueGray-100">
               <a
                 className="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-blue-600 hover:bg-blue-700 text-white rounded"
-                href="#"
+                href="/#"
               >
                 Sign Up
               </a>
               <a
                 className="block px-4 py-3 mb-2 text-xs text-center text-blue-600 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded"
-                href="#"
+                href="/#"
               >
                 Log In
               </a>
@@ -158,18 +160,18 @@ const Header = (props: Props) => {
               <span>Get in Touch</span>
               <a
                 className="text-blue-600 hover:text-blue-600 underline"
-                href="#"
+                href="/#"
               >
                 info@example.com
               </a>
             </p>
-            <a className="inline-block px-1" href="#">
+            <a className="inline-block px-1" href="/#">
               <img src="metis-assets/icons/facebook-blue.svg" alt="" />
             </a>
-            <a className="inline-block px-1" href="#">
+            <a className="inline-block px-1" href="/#">
               <img src="metis-assets/icons/twitter-blue.svg" alt="" />
             </a>
-            <a className="inline-block px-1" href="#">
+            <a className="inline-block px-1" href="/#">
               <img src="metis-assets/icons/instagram-blue.svg" alt="" />
             </a>
           </div>

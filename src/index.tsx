@@ -3,11 +3,15 @@ import ReactDOM from "react-dom";
 import "./assets/main.css";
 import "./index.css";
 import App from "./App";
+import { Windmill } from "@windmill/react-ui";
+import myTheme from "./myTheme.js";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Windmill usePreferences theme={myTheme}>
+      <App />
+    </Windmill>
   </React.StrictMode>,
   document.getElementById("root")
 );
